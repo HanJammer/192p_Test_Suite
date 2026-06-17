@@ -1,0 +1,1662 @@
+// ==============================================================================
+// 192p Test Suite - Monoscope Symbols (320x192)
+// Tiles (Graphics 8)
+// ==============================================================================
+    .align $0100
+tiles_base:
+
+// Tile 00
+    .byte $FF, $FF
+    .byte $80, $01
+    .byte $80, $01
+    .byte $89, $91
+    .byte $90, $09
+    .byte $84, $21
+    .byte $80, $01
+    .byte $91, $89
+    .byte $91, $89
+    .byte $80, $01
+    .byte $84, $21
+    .byte $90, $09
+    .byte $89, $91
+    .byte $80, $01
+    .byte $80, $01
+    .byte $FF, $FF
+
+// Tile 01
+    .byte $FF, $FF
+    .byte $80, $01
+    .byte $80, $01
+    .byte $9F, $F9
+    .byte $80, $01
+    .byte $80, $01
+    .byte $9F, $F9
+    .byte $80, $01
+    .byte $80, $01
+    .byte $9F, $F9
+    .byte $80, $01
+    .byte $80, $01
+    .byte $9F, $F9
+    .byte $80, $01
+    .byte $80, $01
+    .byte $FF, $FF
+
+// Tile 02
+    .byte $FF, $FF
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $81, $81
+    .byte $81, $81
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $FF, $FF
+
+// Tile 03
+    .byte $FF, $FF
+    .byte $80, $01
+    .byte $80, $01
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $92, $49
+    .byte $80, $01
+    .byte $80, $01
+    .byte $FF, $FF
+
+// Tile 04
+    .byte $FF, $FF
+    .byte $80, $00
+    .byte $80, $00
+    .byte $9F, $FF
+    .byte $9F, $FF
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+    .byte $98, $00
+
+// Tile 05
+    .byte $FF, $FF
+    .byte $01, $00
+    .byte $01, $00
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+
+// Tile 06
+    .byte $FF, $FF
+    .byte $00, $00
+    .byte $00, $00
+    .byte $FC, $00
+    .byte $FC, $00
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AD, $80
+    .byte $5D, $80
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AC, $00
+
+// Tile 07
+    .byte $FF, $FF
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 08
+    .byte $FF, $FF
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $01, $81
+    .byte $01, $81
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+
+// Tile 09
+    .byte $FF, $FF
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $81, $80
+    .byte $81, $80
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+
+// Tile 0A
+    .byte $FF, $FF
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $3F
+    .byte $00, $3F
+    .byte $00, $30
+    .byte $00, $30
+    .byte $01, $B0
+    .byte $01, $B0
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+
+// Tile 0B
+    .byte $FF, $FF
+    .byte $00, $80
+    .byte $00, $80
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+
+// Tile 0C
+    .byte $FF, $FF
+    .byte $00, $01
+    .byte $00, $01
+    .byte $FF, $F9
+    .byte $FF, $F9
+    .byte $55, $59
+    .byte $AA, $B9
+    .byte $55, $59
+    .byte $AA, $B9
+    .byte $55, $59
+    .byte $AA, $B9
+    .byte $55, $59
+    .byte $AA, $B9
+    .byte $55, $59
+    .byte $AA, $B9
+    .byte $55, $59
+
+// Tile 0D
+    .byte $98, $00
+    .byte $18, $00
+    .byte $1F, $FF
+    .byte $1F, $FF
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $08
+    .byte $18, $08
+    .byte $18, $08
+    .byte $18, $08
+    .byte $19, $FF
+    .byte $18, $08
+    .byte $18, $08
+    .byte $18, $08
+    .byte $18, $08
+    .byte $18, $00
+
+// Tile 0E
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $C8, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+
+// Tile 0F
+    .byte $5C, $00
+    .byte $AC, $00
+    .byte $FC, $00
+    .byte $FC, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0D, $80
+    .byte $0D, $80
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+
+// Tile 10
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 11
+    .byte $00, $01
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 12
+    .byte $80, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 13
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $3F
+    .byte $00, $3F
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $01, $B0
+    .byte $01, $B0
+    .byte $00, $30
+    .byte $00, $33
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+
+// Tile 14
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $10
+    .byte $00, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $FF, $90
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $00, $10
+
+// Tile 15
+    .byte $AA, $B9
+    .byte $55, $58
+    .byte $FF, $F8
+    .byte $FF, $F8
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+
+// Tile 16
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $81, $80
+    .byte $81, $80
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+
+// Tile 17
+    .byte $18, $00
+    .byte $1F, $FF
+    .byte $1F, $FF
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 18
+    .byte $08, $00
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+
+// Tile 19
+    .byte $0C, $00
+    .byte $FC, $00
+    .byte $FC, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 1A
+    .byte $00, $1F
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $01, $90
+    .byte $01, $90
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+
+// Tile 1B
+    .byte $FF, $FF
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $01, $83
+    .byte $01, $83
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+
+// Tile 1C
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $FF, $FF
+
+// Tile 1D
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $FF, $FF
+
+// Tile 1E
+    .byte $F0, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $11, $80
+    .byte $11, $80
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+
+// Tile 1F
+    .byte $00, $30
+    .byte $00, $3F
+    .byte $00, $3F
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 20
+    .byte $00, $10
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+
+// Tile 21
+    .byte $00, $18
+    .byte $FF, $F8
+    .byte $FF, $F8
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+
+// Tile 22
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $01, $81
+    .byte $01, $81
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+
+// Tile 23
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $81, $80
+    .byte $81, $80
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $80, $00
+    .byte $FF, $FF
+
+// Tile 24
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $FF, $FF
+
+// Tile 25
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $81, $00
+
+// Tile 26
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $01, $90
+    .byte $01, $90
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+
+// Tile 27
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $01, $83
+    .byte $01, $83
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+
+// Tile 28
+    .byte $FF, $FF
+    .byte $00, $01
+    .byte $00, $01
+    .byte $01, $01
+    .byte $01, $01
+    .byte $01, $01
+    .byte $01, $01
+    .byte $3F, $F9
+    .byte $01, $01
+    .byte $01, $01
+    .byte $01, $01
+    .byte $01, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 29
+    .byte $FF, $FF
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 2A
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $11, $80
+    .byte $11, $80
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+
+// Tile 2B
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $81
+
+// Tile 2C
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $01, $81
+    .byte $01, $81
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $FF, $FF
+
+// Tile 2D
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $FF, $FF
+
+// Tile 2E
+    .byte $00, $1F
+    .byte $00, $1F
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $01, $98
+    .byte $01, $98
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $FF, $FF
+
+// Tile 2F
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $0A
+    .byte $00, $0D
+    .byte $00, $0A
+    .byte $00, $0D
+    .byte $00, $0A
+    .byte $00, $0D
+    .byte $00, $0A
+    .byte $00, $0D
+    .byte $00, $0A
+    .byte $00, $0D
+    .byte $00, $0A
+    .byte $00, $0D
+    .byte $00, $0A
+    .byte $FF, $FF
+
+// Tile 30
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $AA, $AF
+    .byte $55, $5F
+    .byte $AA, $AF
+    .byte $55, $5F
+    .byte $AA, $AF
+    .byte $55, $5F
+    .byte $AA, $AF
+    .byte $55, $5F
+    .byte $AA, $AF
+    .byte $55, $5F
+    .byte $AA, $AF
+    .byte $55, $5F
+    .byte $AA, $AF
+    .byte $FF, $FF
+
+// Tile 31
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $09
+    .byte $00, $09
+    .byte $00, $09
+    .byte $00, $09
+    .byte $00, $08
+    .byte $00, $08
+    .byte $00, $01
+    .byte $07, $E9
+    .byte $00, $00
+    .byte $00, $00
+    .byte $FF, $99
+
+// Tile 32
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $90, $01
+    .byte $90, $01
+    .byte $90, $01
+    .byte $90, $01
+    .byte $10, $01
+    .byte $10, $01
+    .byte $80, $01
+    .byte $97, $E1
+    .byte $00, $01
+    .byte $00, $01
+    .byte $99, $FF
+
+// Tile 33
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $FF, $FF
+
+// Tile 34
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $2A, $AA
+    .byte $35, $55
+    .byte $2A, $AA
+    .byte $35, $55
+    .byte $2A, $AA
+    .byte $35, $55
+    .byte $2A, $AA
+    .byte $35, $55
+    .byte $2A, $AA
+    .byte $35, $55
+    .byte $2A, $AA
+    .byte $35, $55
+    .byte $2A, $AA
+    .byte $FF, $FF
+
+// Tile 35
+    .byte $F0, $00
+    .byte $F0, $00
+    .byte $B0, $00
+    .byte $70, $00
+    .byte $B0, $00
+    .byte $70, $00
+    .byte $B0, $00
+    .byte $71, $80
+    .byte $B1, $80
+    .byte $70, $00
+    .byte $B0, $00
+    .byte $70, $00
+    .byte $B0, $00
+    .byte $70, $00
+    .byte $B0, $00
+    .byte $FF, $FF
+
+// Tile 36
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $FF, $FF
+
+// Tile 37
+    .byte $FF, $FF
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+    .byte $81, $00
+
+// Tile 38
+    .byte $FF, $FF
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $01, $99
+    .byte $01, $98
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $18
+    .byte $00, $1F
+    .byte $00, $1F
+
+// Tile 39
+    .byte $FF, $FF
+    .byte $00, $08
+    .byte $00, $08
+    .byte $08, $08
+    .byte $08, $08
+    .byte $08, $08
+    .byte $08, $08
+    .byte $FF, $C8
+    .byte $08, $08
+    .byte $08, $08
+    .byte $08, $08
+    .byte $08, $08
+    .byte $00, $08
+    .byte $00, $08
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 3A
+    .byte $FF, $FF
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $00, $0F
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 3B
+    .byte $FF, $99
+    .byte $00, $00
+    .byte $00, $00
+    .byte $07, $E9
+    .byte $00, $01
+    .byte $00, $08
+    .byte $00, $08
+    .byte $00, $09
+    .byte $00, $09
+    .byte $00, $09
+    .byte $00, $09
+    .byte $00, $01
+    .byte $00, $01
+    .byte $00, $01
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 3C
+    .byte $99, $FF
+    .byte $00, $01
+    .byte $00, $01
+    .byte $97, $E1
+    .byte $80, $01
+    .byte $10, $01
+    .byte $10, $01
+    .byte $90, $01
+    .byte $90, $01
+    .byte $90, $01
+    .byte $90, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $80, $01
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 3D
+    .byte $FF, $FF
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $E0, $20
+    .byte $E0, $20
+    .byte $E0, $20
+    .byte $E0, $20
+    .byte $E7, $FF
+    .byte $E0, $20
+    .byte $E0, $20
+    .byte $E0, $20
+    .byte $E0, $20
+    .byte $E0, $00
+    .byte $E0, $00
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 3E
+    .byte $FF, $FF
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $20, $00
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 3F
+    .byte $FF, $FF
+    .byte $30, $00
+    .byte $30, $00
+    .byte $30, $00
+    .byte $30, $00
+    .byte $30, $00
+    .byte $30, $00
+    .byte $31, $80
+    .byte $31, $80
+    .byte $30, $00
+    .byte $30, $00
+    .byte $30, $00
+    .byte $30, $00
+    .byte $30, $00
+    .byte $F0, $00
+    .byte $F0, $00
+
+// Tile 40
+    .byte $FF, $FF
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+    .byte $00, $81
+
+// Tile 41
+    .byte $81, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+
+// Tile 42
+    .byte $FF, $FF
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $AA, $AB
+    .byte $55, $55
+    .byte $FF, $FF
+    .byte $FF, $FF
+
+// Tile 43
+    .byte $00, $81
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+
+// Tile 44
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $1F, $FF
+    .byte $1F, $FF
+    .byte $18, $00
+
+// Tile 45
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $01, $00
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $0A, $AA
+
+// Tile 46
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $FC, $00
+    .byte $FC, $00
+    .byte $AC, $00
+
+// Tile 47
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $01, $90
+    .byte $01, $90
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $00, $1F
+
+// Tile 48
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $01, $83
+    .byte $01, $83
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $00, $03
+    .byte $FF, $FF
+
+// Tile 49
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $11, $80
+    .byte $11, $80
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $10, $00
+    .byte $F0, $00
+
+// Tile 4A
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $3F
+    .byte $00, $3F
+    .byte $00, $30
+
+// Tile 4B
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $00, $80
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $15
+
+// Tile 4C
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $FF, $F8
+    .byte $FF, $F8
+    .byte $55, $58
+
+// Tile 4D
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $18, $00
+    .byte $1F, $FF
+    .byte $1F, $FF
+    .byte $18, $00
+    .byte $98, $00
+
+// Tile 4E
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $0D, $55
+    .byte $0A, $AA
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $08, $00
+    .byte $08, $00
+
+// Tile 4F
+    .byte $5C, $00
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AD, $80
+    .byte $5D, $80
+    .byte $AC, $00
+    .byte $5C, $00
+    .byte $AC, $00
+    .byte $FC, $00
+    .byte $FC, $00
+    .byte $0C, $00
+    .byte $0C, $00
+
+// Tile 50
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $01
+
+// Tile 51
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $80, $00
+
+// Tile 52
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $01, $B0
+    .byte $01, $B0
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $3F
+    .byte $00, $3F
+    .byte $00, $30
+    .byte $00, $30
+
+// Tile 53
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $00, $1A
+    .byte $00, $15
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $10
+    .byte $00, $10
+
+// Tile 54
+    .byte $AA, $B8
+    .byte $55, $58
+    .byte $AA, $B8
+    .byte $55, $58
+    .byte $AA, $B8
+    .byte $55, $58
+    .byte $AA, $B8
+    .byte $55, $58
+    .byte $AA, $B8
+    .byte $55, $58
+    .byte $AA, $B8
+    .byte $55, $58
+    .byte $FF, $F8
+    .byte $FF, $F8
+    .byte $00, $18
+    .byte $00, $19
+
+// Tile 55
+    .byte $98, $08
+    .byte $98, $08
+    .byte $98, $08
+    .byte $98, $08
+    .byte $99, $FF
+    .byte $98, $08
+    .byte $98, $08
+    .byte $98, $08
+    .byte $98, $08
+    .byte $98, $00
+    .byte $98, $00
+    .byte $9F, $FF
+    .byte $9F, $FF
+    .byte $80, $00
+    .byte $80, $00
+    .byte $FF, $FF
+
+// Tile 56
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $C8, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $08, $00
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $01, $00
+    .byte $01, $00
+    .byte $FF, $FF
+
+// Tile 57
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $0D, $80
+    .byte $0D, $80
+    .byte $0C, $00
+    .byte $0C, $00
+    .byte $FC, $00
+    .byte $FC, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $FF, $FF
+
+// Tile 58
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $33
+    .byte $00, $30
+    .byte $00, $30
+    .byte $01, $B0
+    .byte $01, $B0
+    .byte $00, $30
+    .byte $00, $30
+    .byte $00, $3F
+    .byte $00, $3F
+    .byte $00, $00
+    .byte $00, $00
+    .byte $FF, $FF
+
+// Tile 59
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $FF, $90
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $10, $10
+    .byte $00, $10
+    .byte $00, $10
+    .byte $FF, $FF
+    .byte $FF, $FF
+    .byte $00, $80
+    .byte $00, $80
+    .byte $FF, $FF
+
+// Tile 5A
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $00, $19
+    .byte $FF, $F9
+    .byte $FF, $F9
+    .byte $00, $01
+    .byte $00, $01
+    .byte $FF, $FF
+
+// Tile 5B
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $01, $80
+    .byte $03, $C0
+    .byte $03, $C0
+    .byte $01, $80
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00
+    .byte $00, $00

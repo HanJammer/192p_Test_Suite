@@ -1,0 +1,12 @@
+docs/
+tools/
+.claude/
+pattern/
+*.bak1
+*.bak
+
+# Build artifacts (binaries are published as GitHub Release assets, not committed)
+bin/
+*.xex
+*.lst
+*.lab
