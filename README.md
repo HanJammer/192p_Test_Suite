@@ -4,7 +4,7 @@ This is my first Atari assembly project (in fact I never really used assembly be
 
 It's a homage to [Artemio Urbina's 240p Test Suite](https://artemiourbina.itch.io/240p-test-suite). Back in February 2026 I needed convergence and geometry patterns to adjust a composite monitor and couldn't run the 240p Test Suite (e.g. on a SNES) at the time, so I decided to play a bit with building something similar myself and at the time I had Atari 8-bit computer sitting on my desk. The idea was to learn something new - 6502 assembly and MADS can't be that hard, can it? Well yes and no. I was scratching my head more than one time. When I finished the first screens I intended to build I started adding more, playing with various techniques and graphic modes and here it is...
 
-## Honest disclaimer
+## Disclaimer
 
 This is a hobby tool, not a calibration instrument. *Don't treat it as a replacement for proper calibration gear or established suites like the 240p Test Suite*. Calibrating a display over composite off an Atari is a mediocre idea anyway: the signal path smears the very things you're trying to measure. Treat any result as a rough guide.
 
