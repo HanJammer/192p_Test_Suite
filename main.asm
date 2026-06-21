@@ -271,6 +271,7 @@ _test_done:
 // ------------------------------------------------------------------------------
 run_selected_test:
     mva #STATE_TEST current_state
+    jsr reset_hw            ; Clear leftover PMG/DLI/VBI state from the previous test
     lda current_test
     cmp #0
     beq _run_pluge
@@ -447,6 +448,30 @@ _g2r_yes:
     mva #1 gtia2rgb_present
     mva $D01C gtia2rgb_major
     mva $D01D gtia2rgb_minor
+    rts
+
+// ------------------------------------------------------------------------------
+// Reset shared hardware to a known baseline before each test runs. Several
+// tests install a custom deferred VBI ($0224), enable DLIs (NMIEN/VDSLST) or
+// turn on PMG, and they only tear that down when returning to the menu - not
+// when SELECT cycles to the next test. Left running, those handlers clobber the
+// next screen: e.g. smpte_vbi keeps rewriting VDSLST every frame (so cbg's gray
+// DLI never fires), and palette256/convfields leave players on screen as stray
+// bars. Calling this first guarantees a clean slate; each test init then sets
+// up only what it needs.
+reset_hw:
+    mva #$00 SDMCTL            ; DMA off (screen blank during setup)
+    mva #$00 NMIEN             ; VBI + DLI off briefly - safe to swap the VBI vector
+    mwa #$E462 $0224           ; restore OS deferred VBI (kills any test's custom VBI)
+    mva #$40 NMIEN             ; VBI back on, DLI still off
+    mva #$00 $D01D             ; GRACTL: stop PMG output (COL80 off on GTIA2RGB)
+    mva #$00 GPRIOR            ; clear GTIA priority / mode
+    lda #0                     ; park all players and missiles off the left edge
+    ldx #7
+_rhw_pm:
+    sta $D000,x                ; HPOSP0-3 / HPOSM0-3 ($D000-$D007)
+    dex
+    bpl _rhw_pm
     rts
 
 blank_dlist:
