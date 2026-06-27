@@ -18,7 +18,7 @@ This changes with the [GTIA2RGB](https://lotharek.pl/productdetail.php?id=435) u
 
 ## Download
 
-You don't need to build anything. Grab the ready-to-run `192p.xex` from the Releases page, then load it in an emulator (e.g. [Altirra](https://www.virtualdub.org/altirra.html)) or run it on real hardware. That's all. Assembly code is here if you want to improve it further or learn something yourself.
+You don't need to build anything. Grab the ready-to-run `192p.xex` from the /bin directory (it's based on the latest codebase), then load it in an emulator (e.g. [Altirra](https://www.virtualdub.org/altirra.html)) or run it on real hardware. That's all. Assembly code is here if you want to improve it further or learn something yourself.
 
 ## Files
 
