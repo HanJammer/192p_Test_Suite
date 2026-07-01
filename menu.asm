@@ -162,7 +162,7 @@ menu_dlist:
 // MENU SCREEN AND VERSION INFO
 // ------------------------------------------------------------------------------
 menu_screen:
-    dta d'          192p Test Suite v.0.4         '
+    dta d'          192p Test Suite v.0.5         '
     dta d'   Display Test Suite for 8-bit Atari   '
     dta d'      HanJammer / Rusty Bits 2026       '
     dta d'                                        '
