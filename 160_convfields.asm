@@ -10,13 +10,7 @@ convfields_init:
     mva #$00 SDMCTL
     mva #$00 $D01D
     mva #$00 GPRIOR
-    
-    mva #0 $D00D
-    mva #0 $D00E
-    mva #0 $D00F
-    mva #0 $D010
-    mva #0 $D011
-    
+
     jsr clear_buffer
     lda #$0E                ; ANTIC Mode 15 (160x192)
     jsr build_dlist

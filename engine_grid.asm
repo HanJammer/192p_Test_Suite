@@ -1,7 +1,14 @@
 // ==============================================================================
 // Shared Grid & Tile Rendering Engine (Split-Buffer High RAM)
 // ==============================================================================
-mono_dlist  = $B000     ; 1KB DL at safe High RAM
+mono_dlist  = $8C00     ; Runtime-built DL (582 bytes), 1KB-aligned so it can't
+                        ; cross a 1KB boundary. Lives between the text80color
+                        ; code segment (ends ~$8BC6) and the $9000 buffers.
+                        ; NOTE: do NOT move this back to $B000 - text80's static
+                        ; display list and screen text live at $B000-$B7AA, and
+                        ; build_dlist would overwrite them at runtime (that bug
+                        ; showed up as the E screen full of heart characters
+                        ; after visiting any grid-engine test).
 
 zp_dest     = $E0   ; 2 bytes (Screen pointer)
 zp_src      = $E2   ; 2 bytes (Map pointer)

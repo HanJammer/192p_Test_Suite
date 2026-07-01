@@ -366,7 +366,7 @@ system_region:  .byte 0     ; 0 = PAL, 1 = NTSC
 current_state:  .byte 0     ; 0 = Menu, 1 = Test Pattern
 current_test:   .byte 0     ; ID of current test
 input_delay:    .byte 0     ; Debounce timer
-test_count:     .byte 0     ; SELECT wrap point (MAX_TESTS, +1 on GTIA2RGB)
+test_count:     .byte 0     ; SELECT wrap point (MAX_TESTS, +2 on GTIA2RGB)
 
 // GTIA2RGB FPGA companion (Lotharek/Gowin). Detected once at boot. Stays  false on stock GTIA (and on Altirra, which doesn't emulate the FPGA), so all extra UI/features stay hidden by default.
 gtia2rgb_present: .byte 0
@@ -466,12 +466,12 @@ reset_hw:
     mva #$40 NMIEN             ; VBI back on, DLI still off
     mva #$00 $D01D             ; GRACTL: stop PMG output (COL80 off on GTIA2RGB)
     mva #$00 GPRIOR            ; clear GTIA priority / mode
-    lda #0                     ; park all players and missiles off the left edge
-    ldx #7
-_rhw_pm:
-    sta $D000,x                ; HPOSP0-3 / HPOSM0-3 ($D000-$D007)
-    dex
-    bpl _rhw_pm
+    lda #0                     ; park players/missiles, reset sizes, clear latched
+    ldx #$11                   ; graphics data: HPOSP/HPOSM ($D000-$D007),
+_rhw_pm:                       ; SIZEP/SIZEM ($D008-$D00C), GRAFP0-3/GRAFM
+    sta $D000,x                ; ($D00D-$D011). With PM DMA off GTIA keeps
+    dex                        ; displaying whatever was last latched in GRAFn,
+    bpl _rhw_pm                ; so those must be cleared explicitly.
     rts
 
 blank_dlist:
